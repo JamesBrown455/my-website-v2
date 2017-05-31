@@ -2,14 +2,27 @@ import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
-import '/imports/ui/components/header/header.js';
-import '/imports/ui/components/nav/nav.js';
+
+//Import Layouts
+import '/imports/ui/layouts/header/header.js';
+import '/imports/ui/layouts/footer/footer.js';
+
+//Import Pages
 import '/imports/ui/pages/about/about.js';
 import '/imports/ui/pages/education/education.js';
 import '/imports/ui/pages/research/research.js';
 import '/imports/ui/pages/contact/contact.js';
 import '/imports/ui/pages/work/work.js';
 
+//Import Components
+import '/imports/ui/components/nav/nav.js';
+import '/imports/ui/components/heroimage/heroimage.js';
+
+
+
+///////////////////////////////////////
+//  Allows for Scrolling Navigation  //
+///////////////////////////////////////
 
 var scrollFunction = function(idstring) {
   $('html, body').animate({
@@ -17,6 +30,7 @@ var scrollFunction = function(idstring) {
   }, 1000);
 };
 
+// Pages to Scroll To
 Template.nav.events({
   "click #educationlink": function() {
     scrollFunction('#education');
