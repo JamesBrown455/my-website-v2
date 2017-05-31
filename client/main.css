@@ -1,7 +1,48 @@
 /* CSS declarations go here */
 
+body{
+  background: black;
+}
+
+.panel-default > .panel-heading {
+  color: gray;
+  background-color: #1A1A26;
+  border-color:  #1A1A26;
+  border-radius: 0;
+}
+.panel-default{
+  border-color:  #1A1A26;
+}
 /* Stops Navbar from Covering Titles after Scrolling */
 .anchorpoint{
   padding-top: 40px;
   margin-top: -40px
+}
+
+/* Button Styles */
+/* Button Padding */
+.btn-space {
+    margin: 10px;
+}
+
+/* These Eliminate Pannel Padding */
+/* Removes Rounded Panel Corners */
+.panelnocorn{
+  border-radius: 0 !important;
+}
+
+/* Removes Rounded Margins */
+.panelnomarg{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* Removes Rounded Panel Padding */
+.no-spacing {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-right: 0 !important
+  padding-left: 0 !important
 }

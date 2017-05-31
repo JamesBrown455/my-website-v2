@@ -1,4 +1,77 @@
-/* research Page CSS */
+/*********************/
+/* Research Page CSS */
+/*********************/
+
+/******************/
+/* General Styles */
+/******************/
 .research{
-  
+
+}
+
+/* Turns Beaker Symbol Green */
+.green-beaker{
+color: #66FF33;
+}
+
+/* Turns Beaker Symbol Green */
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #1A1A26 !important;
+    border-color: #1A1A26 !important;
+    color: gray;
+}
+
+/***************/
+/* SCSU Styles */
+/***************/
+.scsu-re{
+  background: url('/images/jbbm2.jpg');
+  background-size: cover;
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  border-color: black;
+}
+
+.scsu-col-back{
+  color: #FFFFD1;
+  border-radius: 25px;
+  border: 2px solid #1A1A26;
+  padding: 10px;
+  background: rgba(0, 46, 199, 0.7);
+
+}
+
+.scsu-head-back{
+  color: #FFFFD1;
+  border: 2px solid #1A1A26;
+  padding: 10px;
+  background: rgba(0, 46, 199, 0.7);
+}
+
+/*****************/
+/* Auburn Styles */
+/*****************/
+.auburn-re{
+  background: url('/images/samford.jpg');
+  background-size: cover;
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  border-color: black;
+}
+.auburn-col-back{
+  color: #000080;
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 10px;
+  background: rgba(255, 128, 0, 0.8);
+
+}
+
+.auburn-head-back{
+  color: #000080;
+  border: 2px solid #1A1A26;
+  padding: 10px;
+  background: rgba(255, 128, 0, 0.8);
 }
