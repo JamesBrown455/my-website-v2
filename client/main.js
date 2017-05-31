@@ -32,16 +32,16 @@ var scrollFunction = function(idstring) {
 
 // Pages to Scroll To
 Template.nav.events({
-  "click #educationlink": function() {
-    scrollFunction('#education');
-  },
-
   "click #aboutlink": function() {
     scrollFunction('#about');
   },
 
   "click #worklink": function() {
     scrollFunction('#work');
+  },
+
+  "click #educationlink": function() {
+    scrollFunction('#education');
   },
 
   "click #contactlink": function() {
@@ -57,5 +57,4 @@ Template.heroimage.events({
   "click #aboutlink": function() {
     scrollFunction('#about');
   },
-
 });
