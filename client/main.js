@@ -2,24 +2,13 @@ import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
+import '/imports/ui/components/header/header.js';
+import '/imports/ui/components/nav/nav.js';
+import '/imports/ui/pages/about/about.js';
+import '/imports/ui/pages/intro/intro.js';
+import '/imports/ui/pages/research/research.js';
+import '/imports/ui/pages/contact/contact.js';
 
-Template.hello.onCreated(function helloOnCreated() {
-  // counter starts at 0
-  this.counter = new ReactiveVar(0);
-});
-
-Template.hello.helpers({
-  counter() {
-    return Template.instance().counter.get();
-  },
-});
-
-Template.hello.events({
-  'click button'(event, instance) {
-    // increment the counter when button is clicked
-    instance.counter.set(instance.counter.get() + 1);
-  },
-});
 
 var scrollFunction = function(idstring) {
   $('html, body').animate({
@@ -27,9 +16,9 @@ var scrollFunction = function(idstring) {
   }, 1000);
 };
 
-Template.options.events({
-  "click #mainlink": function() {
-    scrollFunction('#main');
+Template.nav.events({
+  "click #introlink": function() {
+    scrollFunction('#intro');
   },
 
   "click #aboutlink": function() {
@@ -38,5 +27,9 @@ Template.options.events({
 
   "click #contactlink": function() {
     scrollFunction('#contact');
+  },
+
+  "click #researchlink": function() {
+    scrollFunction('#research');
   },
 });
