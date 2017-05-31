@@ -1,19 +1,37 @@
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>James Brown</title>
 </head>
 
 <body>
-  {{> header}}
-  <div name="main" id='main'>
-    {{> intro}}
-  </div>
-  <div name="about" id='about'>
-    {{> about}}
-  </div>
-  <div name="research" id='research'>
-    {{> research}}
-  </div>
-  <div name="contact" id='contact'>
-    {{> contact}}
+  <div class="container-fluid">
+    <div class="row">
+      {{> header}}
+    </div>
+    <div class="row">
+      <div name="about" id='about'>
+        {{> about}}
+      </div>
+    </div>
+    <div class="row">
+      <div name="work" id='work'>
+        {{> work}}
+      </div>
+    </div>
+    <div class="row">
+      <div name="research" id='research'>
+        {{> research}}
+      </div>
+    </div>
+    <div class="row">
+      <div name="education" id='education'>
+        {{> education}}
+      </div>
+    </div>
+    <div class="row">
+      <div name="contact" id='contact'>
+        {{> contact}}
+      </div>
+    </div>
   </div>
 </body>
