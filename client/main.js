@@ -52,3 +52,10 @@ Template.nav.events({
     scrollFunction('#research');
   },
 });
+
+Template.heroimage.events({
+  "click #aboutlink": function() {
+    scrollFunction('#about');
+  },
+
+});

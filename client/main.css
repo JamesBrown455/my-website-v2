@@ -1,1 +1,7 @@
 /* CSS declarations go here */
+
+/* Stops Navbar from Covering Titles after Scrolling */
+.anchorpoint{
+  padding-top: 40px;
+  margin-top: -40px
+}

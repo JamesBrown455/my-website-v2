@@ -1,4 +1,32 @@
 /* heroimage Component CSS */
 .heroimage{
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
 
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("images/jbbm2.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
