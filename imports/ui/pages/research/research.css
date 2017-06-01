@@ -24,6 +24,18 @@ color: #66FF33;
 /***************/
 /* SCSU Styles */
 /***************/
+.well-scsu-re {
+    background: rgb(0, 46, 199);
+    border: 1px solid #1A1A26;
+}
+
+.well-scsu-info-re{
+  background: rgb(0, 46, 199);
+  border-radius: 20px;
+  margin: 0px;
+  border: 1px solid #1A1A26;
+}
+
 .scsu-re{
   background: url('/images/jbbm2.jpg');
   background-size: cover;
@@ -36,15 +48,16 @@ color: #66FF33;
 .scsu-col-back{
   color: white;
   border-radius: 25px;
-  border: 2px solid #1A1A26;
+  border: 1px solid #1A1A26;
   padding: 10px;
+  margin: 10px;
   background: rgba(0, 46, 199, 0.7);
 
 }
 
 .scsu-head-back{
   color: white;
-  border: 2px solid #1A1A26;
+  border: 1px solid #1A1A26;
   padding: 10px;
   background: rgba(0, 46, 199, 0.7);
 }
@@ -52,6 +65,18 @@ color: #66FF33;
 /*****************/
 /* Auburn Styles */
 /*****************/
+.well-auburn{
+    background: rgb(255, 128, 0);
+    border: 1px solid white;
+}
+
+.well-auburn-info{
+    background: rgb(255, 128, 0);
+    border-radius: 20px;
+    margin: 0px;
+    border: 1px solid white;
+}
+
 .auburn-re{
   background: url('/images/samford.jpg');
   background-size: cover;
@@ -63,15 +88,16 @@ color: #66FF33;
 .auburn-col-back{
   color: #000080;
   border-radius: 25px;
-  border: 2px solid white;
+  border: 1px solid white;
   padding: 10px;
+  margin: 10px;
   background: rgba(255, 128, 0, 0.8);
 
 }
 
 .auburn-head-back{
   color: #000080;
-  border: 2px solid #1A1A26;
+  border: 1px solid #1A1A26;
   padding: 10px;
   background: rgba(255, 128, 0, 0.8);
 }
