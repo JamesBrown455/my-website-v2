@@ -1,4 +1,15 @@
-/* about Page CSS */
+/*********************/
+/* About Page CSS */
+/*********************/
+
+/******************/
+/* General Styles */
+/******************/
 .about{
 
+}
+
+/* Turns Book Symbol Blue */
+.blue-book{
+color: #00ccff;
 }

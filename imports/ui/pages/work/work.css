@@ -1,4 +1,15 @@
-/* work Page CSS */
-.work{
-  
+/*********************/
+/* Work Page CSS */
+/*********************/
+
+/******************/
+/* General Styles */
+/******************/
+.education{
+
+}
+
+/* Turns Book Symbol Blue */
+.orange-case{
+color: #ffa64d;
 }

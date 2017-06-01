@@ -14,7 +14,7 @@
 color: #66FF33;
 }
 
-/* Turns Beaker Symbol Green */
+/* Button Color */
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #1A1A26 !important;
     border-color: #1A1A26 !important;
@@ -34,7 +34,7 @@ color: #66FF33;
 }
 
 .scsu-col-back{
-  color: #FFFFD1;
+  color: white;
   border-radius: 25px;
   border: 2px solid #1A1A26;
   padding: 10px;
@@ -43,7 +43,7 @@ color: #66FF33;
 }
 
 .scsu-head-back{
-  color: #FFFFD1;
+  color: white;
   border: 2px solid #1A1A26;
   padding: 10px;
   background: rgba(0, 46, 199, 0.7);

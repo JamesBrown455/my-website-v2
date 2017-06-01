@@ -1,4 +1,15 @@
-/* contact Page CSS */
+/*********************/
+/* Contact Page CSS */
+/*********************/
+
+/******************/
+/* General Styles */
+/******************/
 .contact{
- 
+
+}
+
+/* Turns Book Symbol Blue */
+.red-letter{
+color: #ff471a;
 }

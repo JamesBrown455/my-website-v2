@@ -1,4 +1,62 @@
-/* education Page CSS */
+/*********************/
+/* Education Page CSS */
+/*********************/
+
+/******************/
+/* General Styles */
+/******************/
 .education{
 
+}
+
+/* Turns Book Symbol Blue */
+.gold-cap{
+color: #ff33ff;
+}
+
+/* Button Color */
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #1A1A26 !important;
+    border-color: #1A1A26 !important;
+    color: gray;
+}
+
+/***************/
+/* SCSU Styles */
+/***************/
+.scsu-re-edu{
+  background: url('/images/jbbm2.jpg');
+  background-size: cover;
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  border-color: black;
+}
+
+.well-scsu {
+    background: white;
+    border: 1px solid #1A1A26;
+}
+.well-scsu-info{
+  background: white;
+  border-radius: 20px;
+  margin: 0px;
+  border: 1px solid #1A1A26;
+}
+
+.scsu-col-back-edu{
+  color: rgb(0, 46, 199);
+  border-radius: 25px;
+  border: 1px solid #1A1A26;
+  padding: 10px;
+  margin: 10px;
+  background:  rgba(255, 255, 255, 0.7);
+
+}
+
+.scsu-head-back-edu{
+  color: rgb(0, 46, 199);
+  border: 1px solid #1A1A26;
+  padding: 10px;
+  background:  rgba(255, 255, 255, 0.7);
 }

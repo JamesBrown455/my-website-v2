@@ -4,6 +4,10 @@ body{
   background: black;
 }
 
+.border-thumbnail {
+  border: 1px solid #1A1A26;
+}
+
 .panel-default > .panel-heading {
   color: gray;
   background-color: #1A1A26;
