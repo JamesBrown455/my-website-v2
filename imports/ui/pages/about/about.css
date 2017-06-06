@@ -1,15 +1,24 @@
 /*********************/
 /* About Page CSS */
 /*********************/
-
-/******************/
-/* General Styles */
-/******************/
 .about{
-
+  font-family: sans-serif;
 }
 
 /* Turns Book Symbol Blue */
 .blue-book{
 color: #00ccff;
+}
+
+.me{
+   overflow: hidden;
+   border-width: 2px;
+   border-color: black;
+}
+
+.well-about{
+  background-color: grey;
+  border-width: 2px;
+  border-color: black;
+  margin-top: 25px
 }
