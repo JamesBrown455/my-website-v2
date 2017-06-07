@@ -1,6 +1,6 @@
-/*********************/
+/********************/
 /* Contact Page CSS */
-/*********************/
+/********************/
 
 /******************/
 /* General Styles */
@@ -12,4 +12,59 @@
 /* Turns Book Symbol Blue */
 .red-letter{
 color: #ff471a;
+}
+
+.well-so{
+  background-color: #1A1A26;
+  margin: 20px;
+}
+.t-so{
+  color: red;
+}
+
+/****************/
+/* Social Icons */
+/****************/
+/* Style all font awesome icons */
+.fa-so
+{
+  padding: 20px;
+  margin: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    color: #ff471a;
+}
+
+/* Set a specific color for each brand */
+
+/* Email */
+.fa-envelope-o {
+    color: red;
+}
+
+/* Facebook */
+.fa-facebook {
+    color: #3B5998;
+
+}
+
+/* Instagram */
+.fa-instagram{
+    color: purple;
+}
+/* Twitter */
+.fa-linkedin{
+    color: #55ACEE;
+}
+
+/* GitHub */
+.fa-github{
+  color: white;
 }
