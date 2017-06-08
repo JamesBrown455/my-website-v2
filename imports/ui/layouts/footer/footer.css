@@ -1,4 +1,15 @@
 /* footer Layout CSS */
 .footer{
+  background-color: #1A1A26;
+}
 
+.footer:hover{
+  opacity: .6;
+}
+
+.footer-pan{
+  background-color: #1A1A26;
+}
+.copyR{
+  color: grey;
 }

@@ -58,3 +58,25 @@ Template.heroimage.events({
     scrollFunction('#about');
   },
 });
+
+Template.footer.events({
+  "click #aboutlink": function() {
+    scrollFunction('#about');
+  },
+
+  "click #worklink": function() {
+    scrollFunction('#work');
+  },
+
+  "click #educationlink": function() {
+    scrollFunction('#education');
+  },
+
+  "click #contactlink": function() {
+    scrollFunction('#contact');
+  },
+
+  "click #researchlink": function() {
+    scrollFunction('#research');
+  },
+});

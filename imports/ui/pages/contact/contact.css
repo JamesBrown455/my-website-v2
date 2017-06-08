@@ -5,8 +5,8 @@
 /******************/
 /* General Styles */
 /******************/
-.contact{
-
+.contact-backing{
+ background-color: grey;
 }
 
 /* Turns Book Symbol Blue */
@@ -46,7 +46,7 @@ color: #ff471a;
 
 /* Email */
 .fa-envelope-o {
-    color: red;
+    color: black;
 }
 
 /* Facebook */
