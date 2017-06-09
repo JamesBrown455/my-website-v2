@@ -41,6 +41,9 @@ color: #ff33ff;
 }
 
 /* Styles Wells */
+.well-pad-top{
+  margin-top: 20px;
+}
 .education-well{
   border-color: rgba(28, 56, 140, .7);
   color:  rgba(255, 255, 255, .8);
@@ -51,8 +54,42 @@ color: #ff33ff;
   background: linear-gradient(to bottom right, rgba(255, 255, 255, .1), rgba(28, 56, 140, .9)); /* Standard syntax */
 }
 
+.education-well-expand{
+  border-color: rgba(28, 56, 140, .7);
+  color:  rgba(255, 255, 255, 1);
+  background: rgba(28, 56, 140, .9); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, rgba(255, 255, 255, .5), rgba(28, 56, 140, .9)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, rgba(255, 255, 255, .5), rgba(28, 56, 140, .9)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, rgba(255, 255, 255, .5), rgba(28, 56, 140, .9)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, .5), rgba(28, 56, 140, .9)); /* Standard syntax */
+}
+
 /* Manages Thumbnail */
 .scsu-thumbnail{
   margin-top: 20px;
   opacity: .95;
+}
+
+.background-image-scsu{
+  background: url('/images/jbbm2.jpg');
+  background-size: cover;
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  border-color: black;
+  opacity: .95;
+}
+
+.background-zde{
+  background-color: rgba(153, 51, 255, .9);
+}
+
+.zde-well{
+  border-color: rgba(28, 56, 140, .7);
+  color:  rgba(255, 255, 255, .8);
+  background: rgba(153, 51, 255, .9); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, rgba(153, 51, 255, .8), 	rgba(140, 140, 140, .8)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, rgba(153, 51, 255, .8), rgba(140, 140, 140, .9)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, rgba(153, 51, 255, .8), rgba(140, 140, 140, .9)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, rgba(153, 51, 255, .8), rgba(140, 140, 140, .9)); /* Standard syntax */
 }
