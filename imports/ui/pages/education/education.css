@@ -2,61 +2,57 @@
 /* Education Page CSS */
 /*********************/
 
-/******************/
-/* General Styles */
-/******************/
-.education{
-
+.wrapper-education{
+  background-color: rgba(26, 26, 38, .99) !important;
+  opacity: .99;
+  color: grey;
 }
 
-/* Turns Book Symbol Blue */
+/* Stypes Content Section */
+.wrapper-education-content{
+  background-color: rgba(28, 56, 140, .7);
+  color: white
+}
+
+/* Turns Hat Purple */
 .gold-cap{
 color: #ff33ff;
-}
-
-/* Button Color */
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #1A1A26 !important;
-    border-color: #1A1A26 !important;
-    color: gray;
 }
 
 /***************/
 /* SCSU Styles */
 /***************/
-.scsu-re-edu{
-  background: url('/images/jbbm2.jpg');
-  background-size: cover;
-  position: relative;
-  max-width: 100%;
-  height: 100%;
-  border-color: black;
+
+/* Styles Expanded Section */
+.wrapper-scsu-expand{
+  color: rgba(28, 56, 140, 1);
 }
 
-.well-scsu {
-    background: white;
-    border: 1px solid #1A1A26;
-}
-.well-scsu-info{
-  background: white;
-  border-radius: 20px;
-  margin: 0px;
-  border: 1px solid #1A1A26;
-}
-
-.scsu-col-back-edu{
-  color: rgb(0, 46, 199);
-  border-radius: 25px;
-  border: 1px solid #1A1A26;
-  padding: 10px;
-  margin: 10px;
-  background:  rgba(255, 255, 255, 0.7);
-
+/* Styles Education Panels */
+.educaion-panel{
+  margin-top: 20px;
+  border-color: rgba(28, 56, 140, .7);
+  color:  rgba(255, 255, 255, .8);
+  background: rgba(255, 255, 255, .8); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, rgba(255, 255, 255, .1), rgba(28, 56, 140, .9)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, rgba(255, 255, 255, .1), rgba(28, 56, 140, .9)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, rgba(255, 255, 255, .1), rgba(28, 56, 140, .9)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, .1), rgba(28, 56, 140, .9)); /* Standard syntax */
 }
 
-.scsu-head-back-edu{
-  color: rgb(0, 46, 199);
-  border: 1px solid #1A1A26;
-  padding: 10px;
-  background:  rgba(255, 255, 255, 0.7);
+/* Styles Wells */
+.education-well{
+  border-color: rgba(28, 56, 140, .7);
+  color:  rgba(255, 255, 255, .8);
+  background: rgba(28, 56, 140, .9); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, rgba(255, 255, 255, .1), rgba(28, 56, 140, .9)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, rgba(255, 255, 255, .1), rgba(28, 56, 140, .9)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, rgba(255, 255, 255, .1), rgba(28, 56, 140, .9)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, .1), rgba(28, 56, 140, .9)); /* Standard syntax */
+}
+
+/* Manages Thumbnail */
+.scsu-thumbnail{
+  margin-top: 20px;
+  opacity: .95;
 }

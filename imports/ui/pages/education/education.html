@@ -2,52 +2,55 @@
 <template name="education">
   <!-- Anchorpoint for scroll navigation -->
   <div class='education anchorpoint'>
-    <div class="panel panel-default panelnomarg panelnocorn resea">
-      <div class="panel-heading panel-head-cust">
-        <h1><i class="fa fa-graduation-cap gold-cap" aria-hidden="true"></i>  Education</h1>
+    <div class="container-fluid wrapper-education">
+      <div class="row">
+        <div class="col-md-12">
+          <h1><i class="fa fa-graduation-cap gold-cap" aria-hidden="true"></i>  Education</h1>
+        </div>
       </div>
-      <!--  SCSU EDUCATION CONTENT -->
-      <div class="panel-body no-spacing scsu-re-edu">
-        <!--  HEADER CONTENT -->
-        <div class="row scsu-head-back-edu">
-          <div class="col-sm-offset-1 col-md-7 col-sm-12">
-            <div class="well well-sm well-scsu">
-              <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i>  Southern Connecticut State University</h2>
-              <h6>Fall 2014 to Spring 2018</h6>
-            </div>
-            <div class="well well-sm well-scsu">
-              <h3>Undergraduate Honors College</h3>
-              <h4>Degree: B.S. Computer Science</h4>
-              <h5>Minor: Mathematics</h5>
-              <h5>GPA: 3.75</h5>
-              <h6>Dean's List: Fall 2014, Spring 2015, Spring 2016, Fall 2016, Spring 2017</h6>
-              <button data-toggle="collapse" data-target="#scsu-edu" class="btn btn-primary btn-space">
-                <i class="fa fa-graduation-cap gold-cap" aria-hidden="true"></i>  Find Out More!
-              </button>
-            </div>
-          </div>
-          <div class="col-md-3 col-xs-10">
-            <a href="https://www.southernct.edu" target="_blank" class="thumbnail border-thumbnail">
+      <div class="wrapper-education-content">
+        <!--  SCSU EDUCATION CONTENT -->
+        <div class="row">
+          <!--  HEADER CONTENT -->
+          <div class="col-sm-offset-1 col-md-2 col-xs-10">
+            <a href="https://www.southernct.edu" target="_blank" class="thumbnail scsu-thumbnail">
               <img src="images/scsu.jpg" alt="scsu logo">
             </a>
           </div>
-        </div>
-        <div id="scsu-edu" class="collapse">
-          <!--  COURSEWORK CONTENT -->
-          <div class="row">
-            <div class=" col-sm-offset-2 col-sm-8">
-              <div class="scsu-col-back-edu">
-                <div class="well well-sm well-scsu-info">
-                  <h3 class="text-center">Technical Coursework</h3>
-                </div>
+          <div class="col-md-8">
+            <div class="panel panel-default educaion-panel">
+              <div class="panel-body">
+                <h2>
+                  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                  Southern Connecticut State University
+                </h2>
+                <h6>Fall 2014 to Spring 2018</h6>
+                <h3>Undergraduate Honors College</h3>
+                <h4>Degree: B.S. Computer Science</h4>
+                <h5>Minor: Mathematics</h5>
+                <h5>GPA: 3.75</h5>
+                <h6>Dean's List: Fall 2014, Spring 2015, Spring 2016, Fall 2016, Spring 2017</h6>
+                <button data-toggle="collapse" data-target="#scsu-edu" class="btn btn-primary btn-space">
+                  <i class="fa fa-graduation-cap gold-cap" aria-hidden="true"></i>  Find Out More!
+                </button>
               </div>
             </div>
           </div>
+        </div>
+          <!--  Expanded Section -->
+        <div id="scsu-edu" class="collapse wrapper-scsu-expand">
+          <!--  COURSEWORK CONTENT -->
           <div class="row">
-            <div class=" col-sm-offset-2 col-sm-4">
-              <div class="scsu-col-back-edu">
-                <div class="well well-sm well-scsu-info">
-                  <ul>
+            <div class=" col-sm-offset-1 col-sm-10">
+              <div class="well well-sm education-well">
+                <h3 class="text-center">Technical Coursework</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row is-table-row">
+            <div class=" col-sm-offset-1 col-sm-5">
+              <div class="well well-sm education-well">
+                <ul>
                     <h5>Computer Science</h5>
                     <li>
                       CSC 104: Web Technology
@@ -80,13 +83,11 @@
                       CSC 330: Software Design and Developement
                     </li>
                   </ul>
-                </div>
               </div>
             </div>
-            <div class="col-sm-4">
-              <div class="scsu-col-back-edu">
-                <div class="well well-sm well-scsu-info">
-                  <ul>
+            <div class="col-sm-5">
+              <div class="well well-sm education-well">
+                <ul>
                     <li>
                       CSC 425: Operating Systems
                     </li>
@@ -113,24 +114,21 @@
                       MAT 252: Calculus III
                     </li>
                   </ul>
-                </div>
               </div>
             </div>
           </div>
           <!--  HONORS CONTENT -->
           <div class="row">
-            <div class=" col-sm-offset-2 col-sm-8">
-              <div class="scsu-col-back-edu">
-                <div class="well well-sm well-scsu-info">
-                  <h3 class="text-center">The Honors College</h3>
-                </div>
+            <div class=" col-sm-offset-1 col-sm-10">
+              <div class="well well-sm education-well">
+                <h3 class="text-center">The Honors College</h3>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class=" col-sm-offset-2 col-sm-4">
-              <div class="scsu-col-back-edu">
-                <div class="well well-sm well-scsu-info">
+          <div class="row is-table-row">
+            <div class=" col-sm-offset-1 col-sm-5">
+              <div class="">
+                <div class="well well-sm education-well">
                   <h5>Honor Overview</h5>
                   <p>
                     The Honors College at SCSU mandates a differnt set of undergraduate genral education courses.
@@ -141,10 +139,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
-              <div class="scsu-col-back-edu">
-                <div class="well well-sm well-scsu-info">
-                  <ul>
+            <div class="col-sm-5">
+              <div class="well well-sm education-well">
+                <ul>
                     <h5>Honors Courses</h5>
                     <li>
                       HON 150: Intro to Critical Inquiry
@@ -174,59 +171,55 @@
                       HON 494: Honors Prosepctus
                     </li>
                   </ul>
-                </div>
               </div>
             </div>
           </div>
           <!--  ZDE CONTENT -->
           <div class="row">
-            <div class=" col-sm-offset-2 col-sm-8">
-              <div class="scsu-col-back-edu">
-                <div class="well well-sm well-scsu-info">
-                  <div>
-                    <h3>&#918;&Delta;&Epsilon;</h3>
-                    <h4> An Honorary Service Society</h4>
-                  </div>
+            <div class=" col-sm-offset-1 col-sm-10">
+              <div class="well well-sm education-well">
+                <div>
+                  <h3>&#918;&Delta;&Epsilon;</h3>
+                  <h4> An Honorary Service Society</h4>
                 </div>
               </div>
-              <div class="scsu-col-back-edu">
-                <div class="well well-sm well-scsu-info">
-                  <h5>&#918;&Delta;&Epsilon; Historian</h5>
-                  <h6>Fall 2017 to Spring 2018</h6>
-                  <p>
+              <div class="well well-sm education-well">
+                <h5>&#918;&Delta;&Epsilon; Historian</h5>
+                <h6>Fall 2017 to Spring 2018</h6>
+                <p>
                     The historian is memeber of the &#918;&Delta;&Epsilon;'s board of elected officials.
                     The historian's job is to photograph &#918;&Delta;&Epsilon; events, as well as run the
                      &#918;&Delta;&Epsilon; instagram account.
                     At the end of the spring semester, the historian is also responcible for creating a scrapbook
                     recaping the year.
-                  </p>
-                  <h5>&#918;&Delta;&Epsilon; Member</h5>
-                  <h6>Fall 2016 to Spring 2017</h6>
-                  <p>
+                </p>
+                <h5>&#918;&Delta;&Epsilon; Member</h5>
+                <h6>Fall 2016 to Spring 2017</h6>
+                <p>
                     &#918;&Delta;&Epsilon; members are accpeted into the honor society if they have junior status
                     and a GPA of 3.50 or greater.
                     To stay in the orginization, members must maintain a GPA of 3.50, or higher, and
                     complete atleast 15 hours of comunity service per semester.
-                  </p>
-                </div>
+                </p>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class=" col-sm-offset-2 col-sm-3 text-center">
-              <div class="scsu-col-back-edu">
-                <div class="well-scsu-info">
-                  <button data-toggle="collapse" data-target="#scsu-edu" class="btn btn-primary btn-space">
-                    <i class="fa fa-graduation-cap gold-cap" aria-hidden="true"></i>  Show Less
-                  </button>
-                </div>
+            <div class=" col-sm-offset-1 col-sm-2">
+              <div class="well well-sm education-well text-center">
+                <button data-toggle="collapse" data-target="#scsu-edu" class="btn btn-primary btn-space">
+                  <i class="fa fa-graduation-cap gold-cap" aria-hidden="true"></i>  Show Less
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="panel-footer panel-head-cust">
-        <h8><i class="fa fa-graduation-cap gold-cap" aria-hidden="true"></i></h8>
+      <div class="row">
+        <div class="col-md-12">
+            <br />
+          <h7><i class="fa fa-graduation-cap gold-cap" aria-hidden="true"></i></h7>
+        </div>
       </div>
     </div>
   </div>

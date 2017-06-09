@@ -1,4 +1,4 @@
-/* CSS declarations go here */
+/* CSS declarations go here
 
 
 .border-thumbnail {
@@ -30,6 +30,11 @@
 }
 
 /* Button Styles */
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #1A1A26 !important;
+    border-color: #1A1A26 !important;
+    color: gray;
+}
 /* Button Padding */
 .btn-space {
     margin: 10px;
