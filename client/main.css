@@ -61,3 +61,8 @@
   padding-right: 0 !important
   padding-left: 0 !important
 }
+
+.well-dark{
+    background-color: #1A1A26 !important;
+    border-color: #1A1A26 !important;
+}
