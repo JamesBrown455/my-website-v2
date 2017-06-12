@@ -2,54 +2,70 @@
 <template name="research">
   <!-- Anchorpoint for scroll navigation -->
   <div class='research anchorpoint'>
-    <div class="panel panel-default panelnomarg panelnocorn resea">
-      <div class="panel-heading panel-head-cust">
-        <h1><i class="fa fa-flask green-beaker" aria-hidden="true"></i>  Research</h1>
+    <div class="container-fluid wrapper-research">
+      <div class="row">
+        <div class="col-md-12">
+          <h1><i class="fa fa-flask green-beaker" aria-hidden="true"></i>  Research</h1>
+        </div>
       </div>
-      <!-- SCSU RESEARCH CONTENT -->
-      <div class="panel-body no-spacing scsu-re">
-        <div class="row scsu-head-back">
-          <div class="col-sm-offset-1 col-md-7 col-sm-12">
-            <div class="well well-sm well-scsu-re">
-              <h2><i class="fa fa-flask" aria-hidden="true"></i>  Southern Connecticut State University</h2>
-              <h6>Spring 2017 to Spring 2018</h6>
-            </div>
-            <div class="well well-sm well-scsu-re">
-              <h3>Undergraduate Honors Thesis</h3>
-              <h4>Department of Computer Science</h4>
-              <h5>School of Arts and Sciences</h5>
-              <button data-toggle="collapse" data-target="#scsu-collapse" class="btn btn-primary btn-space">
-                <i class="fa fa-flask green-beaker" aria-hidden="true"></i>  Find Out More!
-              </button>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-4 col-xs-4">
-            <a href="https://www.southernct.edu" target="_blank" class="thumbnail border-thumbnail">
+      <!--  SCSU REASEARCH CONTENT -->
+      <div class="wrapper-research-scsu-content">
+        <div class="row">
+          <!--  HEADER CONTENT -->
+          <div class="col-sm-offset-1 col-md-2 col-xs-10">
+            <a href="https://www.southernct.edu" target="_blank" class="thumbnail scsu-thumbnail">
               <img src="images/scsu.jpg" alt="scsu logo">
             </a>
           </div>
-        </div>
-        <div id="scsu-collapse" class="collapse">
-          <div class="row">
-            <div class=" col-sm-offset-1 col-sm-4">
-              <div class="scsu-col-back text-center">
-                <div class="well-scsu-info-re">
-                  <h3>Research Topic</h3>
-                </div>
+          <div class="col-md-8">
+            <div class="panel panel-default scsu-research-panel">
+              <div class="panel-body">
+                <h2>
+                  <i class="fa fa-flask" aria-hidden="true"></i>
+                  Undergraduate Honors Thesis
+                </h2>
+                <h3>Southern Connecticut State University</h3>
+                <h4>Department of Computer Science</h4>
+                <h5>School of Arts and Sciences</h5>
+                <h6>Spring 2017 to Present</h6>
+                <button data-toggle="collapse" data-target="#scsu-collapse" class="btn btn-primary btn-space">
+                  <i class="fa fa-flask green-beaker" aria-hidden="true"></i>  Find Out More!
+                </button>
               </div>
-              <div class="scsu-col-back text-center">
-                <div class="well-scsu-info-re">
+            </div>
+          </div>
+        </div>
+        <!--  EXPANDED SCSU CONTENT -->
+        <div id="scsu-collapse" class="collapse wrapper-scsu-expand">
+          <!--  HONORS THESIS CONTENT -->
+            <div class="row">
+              <div class=" col-sm-offset-1 col-sm-5">
+                <div class="well well-sm scsu-research-well">
+                  <h3 class="text-center">Research Topic</h3>
+                </div>
+                <div class="well well-sm scsu-research-well">
                   <p>
                     Unmanned aerial vehicles (UAVs) have become an interesting and important area of research.  UAVs are used in military as well as civilian applications, such as search and rescue, structure inspection, and environmental surveying (Bio-Inspired).  The safety of UAVs in a variety of applications is a continuous concern.  Visual homing--the ability of the UAV to return to its starting position after having explored an area--could continue improving safety and practicality by preventing users from having to search in potentially dangerous areas to retrieve UAVs. Much of the research on visual homing has been implemented on ground robots.  Though research on visual navigation has been done on UAVs, these methods can be improved upon by combining techniques used across the literature.  Visual homing in the complete absence of GPS information and without the help of other navigation tools is an important problem to solve as it could continue to make UAVs easier and safer to use in a variety of applications.
                   </p>
                 </div>
               </div>
+              <div class="col-sm-5">
+                <div class="well well-sm scsu-research-well">
+                  <h3 class="text-center">Thesis Committe</h3>
+                </div>
+                <div class="well well-sm scsu-research-well">
+                  <p>
+                    <h5>Thesis Advisor:  <a href="http://southernct.edu/academics/schools/arts/departments/computerscience/hossain.html">Dr. Md Shafaeat Hossain</a></h5>
+                    <h5>Univeristy Reader: <a href="http://southernct.edu/academics/schools/arts/departments/computerscience/lancor.html">Dr. Lisa Lancor</a></h5>
+                    <h5>Second Univeristy Reader:  <a href="http://www.tc.columbia.edu/faculty/jps164/">Dr. Philip Smith</a></h5>
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class=" col-sm-offset-1 col-sm-3 text-center">
-              <div class="scsu-col-back">
-                <div class="well-scsu-info-re">
+            <!--  Colapse Button -->
+            <div class="row">
+              <div class=" col-sm-offset-1 col-sm-2">
+                <div class="well well-sm scsu-research-well well-pad-top text-center">
                   <button data-toggle="collapse" data-target="#scsu-collapse" class="btn btn-primary btn-space">
                     <i class="fa fa-flask green-beaker" aria-hidden="true"></i>  Show Less
                   </button>
@@ -58,93 +74,69 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="panel-footer panel-head-cust">
-        <h8><i class="fa fa-flask green-beaker" aria-hidden="true"></i></h8>
-      </div>
-      <!-- AUBURN RESEARCH CONTENT -->
-      <div class="panel-body no-spacing auburn-re">
-        <div class="row  auburn-head-back">
-          <div class="col-sm-offset-1 col-md-7 col-sm-12">
-            <div class="well well-sm well-auburn">
-              <h2><i class="fa fa-flask" aria-hidden="true"></i>  Auburn University</h2>
-              <h6>May 2017 to July 2017</h6>
-            </div>
-            <div class="well well-sm well-auburn">
-              <h3> REU for Smart UAVs </h3>
-              <h4> Department of Computer Science and Software Engineering </h4>
-              <h5> Samuel Ginn College of Engineering </h5>
-              <button data-toggle="collapse" data-target="#auburn-collapse" class="btn btn-primary btn-space">
-                <i class="fa fa-flask green-beaker" aria-hidden="true"></i>  Find Out More!
-              </button>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-4 col-xs-4">
-            <a href="http://www.eng.auburn.edu/comp/research/impact/" target="_blank" class="thumbnail">
-              <img src="images/auburn.png" alt="Auburn logo">
-            </a>
+        <div class="row">
+          <div class="col-md-12">
+            <br />
           </div>
         </div>
-        <div id="auburn-collapse" class="collapse">
-          <div class="row">
-            <div class="col-sm-offset-1 col-sm-5">
-              <div class="auburn-col-back text-center">
-                <div class="well-auburn-info">
-                  <h3>Research Project</h3>
-                </div>
-              </div>
-              <div class="auburn-col-back text-center">
-                <div class="well-auburn-info">
-                  <p>
-                    Unmanned aerial vehicles (UAVs) have become an interesting and important area of research.  UAVs are used in military as well as civilian applications, such as search and rescue, structure inspection, and environmental surveying (Bio-Inspired).  The safety of UAVs in a variety of applications is a continuous concern.  Visual homing--the ability of the UAV to return to its starting position after having explored an area--could continue improving safety and practicality by preventing users from having to search in potentially dangerous areas to retrieve UAVs. Much of the research on visual homing has been implemented on ground robots.  Though research on visual navigation has been done on UAVs, these methods can be improved upon by combining techniques used across the literature.  Visual homing in the complete absence of GPS information and without the help of other navigation tools is an important problem to solve as it could continue to make UAVs easier and safer to use in a variety of applications.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-5">
-              <div class="auburn-col-back text-center">
-                <div class="well-auburn-info">
-                  <h3>Research Team</h3>
-                </div>
-              </div>
-              <div class="auburn-col-back">
-                <div class="well-auburn-info">
-                  <h4>Faculty</h4>
-                    <h5> <a href="http://www.eng.auburn.edu/users/sbiaz/" target="_blank">Dr. Saad Biaz</a>, Director, Principal Investigator</h5>
-                    <h5><a href="http://eng.auburn.edu/csse/faculty/index.html" target="_blank">Dr. Richard Chapman</a>, Aerospace Engineering Advisor</h5>
-                  <h4>REU Assistants</h4>
-                  <h5>James Brown, Southern Connecticut State Univeristy</h5>
-                  <h5>Emily Sheetz, Monmouth College</h5>
+      <!--  AUBURN REASEARCH CONTENT -->
+      <div class="wrapper-research-auburn-content">
+        <div class="row">
+          <!--  HEADER CONTENT -->
+          <div class="col-sm-offset-1 col-md-2 col-xs-10">
+            <a href="http://www.eng.auburn.edu/comp/research/impact/" target="_blank" class="thumbnail auburn-thumbnail">
+              <img src="images/auburn.jpg" alt="Auburn logo">
+            </a>
+          </div>
+          <div class="col-md-8">
+            <div class="panel panel-default auburn-research-panel">
+              <div class="panel-body">
+                <h2><i class="fa fa-flask" aria-hidden="true"></i>  NSF REU for Smart UAVs</h2>
+                <h3> Auburn University</h3>
+                <h4> Department of Computer Science and Software Engineering </h4>
+                <h5> Samuel Ginn College of Engineering </h5>
+                <h6>May 2017 to July 2017</h6>
+                <button data-toggle="collapse" data-target="#auburn-collapse" class="btn btn-primary btn-space">
+                  <i class="fa fa-flask green-beaker" aria-hidden="true"></i>  Find Out More!
+                </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-offset-1 col-sm-10">
-              <div class="auburn-col-back">
-                <div class="well-auburn-info">
-                  <h3>
-                    Resarch Links:
-                    <button  class="btn btn-primary">
-                      Research Paper PDF
-                    </button>
-                    <button  class="btn btn-primary">
-                      Presentation
-                    </button>
-                  </h3>
+        <!--  EXPANDED SCSU CONTENT -->
+        <div id="auburn-collapse" class="collapse wrapper-auburn-expand">
+          <!--  REU RESEARCH CONTENT -->
+            <div class="background-image-auburn-research">
+              <div class="row">
+                <div class=" col-sm-offset-1 col-sm-5">
+                  <div class="well well-sm auburn-research-well well-pad-top">
+                    <h3 class="text-center">Research Topic</h3>
+                  </div>
+                  <div class="well well-sm auburn-research-well">
+                    <p>
+                      Unmanned aerial vehicles (UAVs) have become an interesting and important area of research.  UAVs are used in military as well as civilian applications, such as search and rescue, structure inspection, and environmental surveying (Bio-Inspired).  The safety of UAVs in a variety of applications is a continuous concern.  Visual homing--the ability of the UAV to return to its starting position after having explored an area--could continue improving safety and practicality by preventing users from having to search in potentially dangerous areas to retrieve UAVs. Much of the research on visual homing has been implemented on ground robots.  Though research on visual navigation has been done on UAVs, these methods can be improved upon by combining techniques used across the literature.  Visual homing in the complete absence of GPS information and without the help of other navigation tools is an important problem to solve as it could continue to make UAVs easier and safer to use in a variety of applications.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div class="auburn-col-back text-center">
-                <div class="well-auburn-info">
-                  <h4>Closely Related Work</h4>
+                <div class="col-sm-5">
+                  <div class="well well-sm auburn-research-well well-pad-top">
+                    <h3 class="text-center">Research Team</h3>
+                  </div>
+                  <div class="well well-sm auburn-research-well">
+                    <h4>Faculty</h4>
+                      <h5> <a href="http://www.eng.auburn.edu/users/sbiaz/" target="_blank">Dr. Saad Biaz</a>, Director, Principal Investigator</h5>
+                      <h5><a href="http://eng.auburn.edu/csse/faculty/index.html" target="_blank">Dr. Richard Chapman</a>, Aerospace Engineering Advisor</h5>
+                    <h4>REU Assistants</h4>
+                    <h5>James Brown, Southern Connecticut State Univeristy</h5>
+                    <h5>Emily Sheetz, Monmouth College</h5>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-offset-1 col-sm-3 text-center">
-              <div class="auburn-col-back">
-                <div class="well-auburn-info">
+            <!--  Colapse Button -->
+            <div class="row">
+              <div class=" col-sm-offset-1 col-sm-2">
+                <div class="well well-sm auburn-research-well well-pad-top text-center">
                   <button data-toggle="collapse" data-target="#auburn-collapse" class="btn btn-primary btn-space">
                     <i class="fa fa-flask green-beaker" aria-hidden="true"></i>  Show Less
                   </button>
@@ -153,9 +145,12 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="panel-footer panel-head-cust">
-        <h8><i class="fa fa-flask green-beaker" aria-hidden="true"></i></h8>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="well well-sm well-dark">
+            <h7><i class="fa fa-flask green-beaker" aria-hidden="true"></i></h7>
+          </div>
+        </div>
       </div>
     </div>
   </div>
