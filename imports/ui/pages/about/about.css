@@ -10,10 +10,38 @@
 color: #00ccff;
 }
 
-.me{
-   overflow: hidden;
-   border-width: 2px;
-   border-color: black;
+.panel-pad-top{
+  margin-top: 20px;
+}
+
+.wrapper-about{
+  background-color: rgba(26, 26, 38, .99) !important;
+  opacity: .99;
+  color: grey;
+}
+
+.wrapper-about-content{
+  background-color: rgba(67, 67, 67, .5);
+}
+
+
+.about-panel{
+  border-color: rgba(67, 67, 67, .8);
+  color: rgba(255, 255, 255, .8);
+  background: rgba(255, 76, 0, .65); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, rgba(67, 67, 67, .5), rgba(255, 76, 0, .4)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, rgba(67, 67, 67, .5), rgba(255, 76, 0, .4)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, rgba(67, 67, 67, .5), rgba(255, 76, 0, .4)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, rgba(67, 67, 67, .5), rgba(255, 76, 0, .4)); /* Standard syntax */
+}
+
+.background-image-icewall{
+  background: url('/images/ice.jpg');
+  background-size: cover;
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  border-color: black;
 }
 
 .well-about{
