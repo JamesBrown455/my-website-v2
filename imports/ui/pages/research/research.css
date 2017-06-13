@@ -5,7 +5,9 @@
 /******************/
 /* General Styles */
 /******************/
-
+.ul-no {
+  list-style-type: none;
+}
 .wrapper-research{
   background-color: rgba(26, 26, 38, .99) !important;
   opacity: .99;
@@ -151,4 +153,16 @@ color: #66FF33;
 .auburn-thumbnail{
   margin-top: 20px;
   opacity: .95;
+}
+
+ul.related li a, ul.related li a:visited {
+    color: rgba(28, 56, 140, 1) !important;
+}
+
+ul.related li a:hover, ul.related li a:active {
+    color: white  !important;
+}
+
+ul.related li.active a {
+    color: white !important;
 }
