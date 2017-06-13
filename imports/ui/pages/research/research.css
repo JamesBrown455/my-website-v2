@@ -89,9 +89,22 @@ color: #66FF33;
   opacity: .95;
 }
 
-/***************/
+ul.committe li a, ul.committe li a:visited {
+    color: rgba(28, 56, 140, 1) !important;
+}
+
+ul.committe li a:hover, ul.committe li a:active {
+    color: white  !important;
+}
+
+ul.committe li.active a {
+    color: white !important;
+}
+
+
+/*****************/
 /* Auburn Styles */
-/***************/
+/*****************/
 /* Styles Expanded Section */
 .wrapper-research-auburn-content{
   background-color: rgba(255, 128, 0, .72);
