@@ -1,32 +1,17 @@
-/* CSS declarations go here
-
-
-.border-thumbnail {
-  border: 1px solid #1A1A26;
-}
-.panel-default > .panel-footer {
-  color: gray;
-  background-color: #1A1A26;
-  border-color:  #1A1A26;
-  border-radius: 0;
-
-}
-.panel-default > .panel-heading {
-  color: gray;
-  border-top-color: gray;
-  background-color: #1A1A26;
-  border-color:  #1A1A26;
-  border-radius: 0;
-}
-
-
-.panel-default{
-  border-color:  #1A1A26;
-}
+/* CSS declarations go here */
 /* Stops Navbar from Covering Titles after Scrolling */
 .anchorpoint{
   padding-top: 40px;
   margin-top: -40px
+}
+
+.heading-font{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+}
+
+.body-font{
+  font-family: 'Arimo', sans-serif;
 }
 
 /* Button Styles */

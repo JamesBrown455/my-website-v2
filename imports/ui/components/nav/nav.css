@@ -1,4 +1,13 @@
 /* nav Component CSS */
-.nav{
+.my-name-nav{
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: 'Megrim', cursive;
+}
 
+.nav-heading-font{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
 }

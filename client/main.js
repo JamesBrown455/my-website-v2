@@ -57,6 +57,11 @@ Template.heroimage.events({
   "click #aboutlink": function() {
     scrollFunction('#about');
   },
+
+  "click #contactlink": function() {
+    scrollFunction('#contact');
+  },
+
 });
 
 Template.footer.events({
