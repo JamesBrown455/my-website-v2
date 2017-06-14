@@ -5,6 +5,34 @@
   font-family: sans-serif;
 }
 
+/* Controls General Image Size */
+.media-img {
+  width: 100%;
+}
+
+/* Controls Meteor Image Size */
+.media-meteor{
+  width: 94%;
+}
+
+/* Controls OpenCV Image Size */
+.media-opencv{
+  width: 81%;
+  margin-left: 10%;
+}
+
+/* Controls Affinity Image Size */
+.media-affinity{
+  width: 110%;
+  margin-left: -5%;
+}
+
+/* Controls CSS Image Size */
+.media-css{
+  width: 71%;
+  margin-left: 14%;
+}
+
 /* Turns Book Symbol Blue */
 .blue-book{
 color: #00ccff;
