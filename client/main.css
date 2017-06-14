@@ -5,6 +5,10 @@
   margin-top: -40px
 }
 
+.blk-txt{
+  color: rgba(0, 0, 0, .75);
+}
+
 .heading-font{
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: bold;
