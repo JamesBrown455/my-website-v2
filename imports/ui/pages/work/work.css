@@ -26,6 +26,14 @@ color: #ffa64d;
 /***************/
 /* Styles Expanded Section */
 /* Stypes Content Section */
+.wrapper-si-content{
+  background-color: rgba(28, 56, 140, .7);
+  color: white
+}
+.wrapper-ta-expand{
+  color: rgba(28, 56, 140, 1);
+}
+
 .wrapper-ta-content{
   background-color: rgba(28, 56, 140, .7);
   color: white
